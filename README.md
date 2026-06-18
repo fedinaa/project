@@ -146,5 +146,3 @@ python main.py
 ```bash
 psql -U postgres -d mosmusic -f sql/analytics.sql
 ```
-
--
