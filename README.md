@@ -139,14 +139,14 @@ DB_CONFIG = {
 }
 ```
 
-### 7. Запуск ETL-процесса
+### 6. Запуск ETL-процесса
 
 ```bash
 cd src
 python main.py
 ```
 
-### 8. Выполнение аналитических запросов
+### 7. Выполнение аналитических запросов
 
 ```bash
 psql -U postgres -d mosmusic -f sql/analytics.sql
