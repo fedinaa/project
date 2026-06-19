@@ -122,7 +122,7 @@ psql -U postgres -c "CREATE DATABASE etl_dwh;"
 ### 4. Создание структуры хранилища
 
 ```bash
-psql -U postgres -d mosmusic -f ddl/schema.sql
+psql -U postgres -d etl_dwh -f ddl/schema.sql
 ```
 
 ### 5. Настройка подключения к БД
@@ -149,5 +149,5 @@ python main.py
 ### 7. Выполнение аналитических запросов
 
 ```bash
-psql -U postgres -d mosmusic -f sql/analytics.sql
+psql -U postgres -d etl_dwh -f sql/analytics.sql
 ```
