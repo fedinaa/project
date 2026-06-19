@@ -60,6 +60,7 @@ CREATE TABLE fact_events (
     event_type VARCHAR(30),
     event_timestamp TIMESTAMP
 );
+
 CREATE TABLE dq_error_log (
     error_id SERIAL PRIMARY KEY,
     source_table VARCHAR(100),

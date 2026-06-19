@@ -11,7 +11,7 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 DB_CONFIG = {
     "host": "localhost",
     "port": "5432",
-    "database": "mosmusic",
+    "database": "etl_dwh",
     "user": "postgres",
     "password": "admin",
 }
