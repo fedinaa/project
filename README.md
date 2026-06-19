@@ -149,5 +149,5 @@ python main.py
 ### 7. Выполнение аналитических запросов
 
 ```bash
-psql -U postgres -d etl_dwh -f sql/analytics.sql
+psql -U postgres -d etl_dwh -f sql/analize.sql
 ```
