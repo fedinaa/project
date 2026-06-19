@@ -116,7 +116,7 @@ pip install -r requirements.txt
 ### 3. Создание базы данных
 
 ```bash
-psql -U postgres -c "CREATE DATABASE mosmusic;"
+psql -U postgres -c "CREATE DATABASE etl_dwh;"
 ```
 
 ### 4. Создание структуры хранилища
@@ -133,7 +133,7 @@ psql -U postgres -d mosmusic -f ddl/schema.sql
 DB_CONFIG = {
     "host": "localhost",
     "port": "5432",
-    "database": "mosmusic",
+    "database": "etl_dwh",
     "user": "postgres",
     "password": "postgres"
 }
